@@ -13,7 +13,7 @@ No CAPTCHA reCAPTCHA
 ## Installation
 
 ```
-composer require abcdebo/google-recaptcha
+composer require abcdebo/laravel-google-recaptcha
 ```
 
 ## Laravel 5 and above
