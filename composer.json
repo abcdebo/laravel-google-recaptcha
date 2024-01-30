@@ -1,0 +1,43 @@
+{
+    "name": "abcdebo/laravel-google-recaptcha",
+    "description": "Google Recaptcha For Laravel.",
+    "keywords": [
+        "recaptcha",
+        "no-captcha",
+        "captcha",
+        "laravel",
+        "laravel4",
+        "laravel5",
+        "laravel6"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Debo",
+            "email": "mailto.abcdebo@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.5",
+        "illuminate/support": "^5.0|^6.0|^7.0|^8.0|^9.0|^10.0",
+        "guzzlehttp/guzzle": "^6.2|^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.8|^9.5.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "ABCDebo\\GoogleRecaptcha\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ABCDebo\\GoogleRecaptcha\\GoogleRecaptchaServiceProvider"
+            ],
+            "aliases": {
+                "GoogleRecaptcha": "ABCDebo\\GoogleRecaptcha\\Facades\\GoogleRecaptcha"
+            }
+        }
+    }
+}
